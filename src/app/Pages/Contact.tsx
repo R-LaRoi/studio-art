@@ -1,5 +1,5 @@
 import React from 'react'
-import '../Styles/contact.css'
+
 
 
 const bwImages = [
@@ -23,31 +23,29 @@ const bwImages = [
 
 export default function Contact() {
   return (
-    <div className="h-screen w-screen ">
-      <div className="grid grid-cols-4 grid-rows-2 h-full w-full gap-0">
-        <div className="div1 col-start-1 row-start-1 bg-white" ></div >
-        <div className="div2  col-start-2 row-start-1 relative overflow-hidden">
+    <div className="min-h-screen w-full">
+      <div className="grid grid-cols-2 sm:grid-cols-4 grid-rows-4 sm:grid-rows-2 h-full w-full gap-0">
+        <div className="div1 col-span-2 sm:col-span-1 row-span-1 bg-white"></div>
+        <div className="div2 col-span-2 sm:col-span-1 row-span-1 relative overflow-hidden">
           <img src={bwImages[2]} className="absolute inset-0 w-full h-full object-cover" alt="Image 2" />
         </div>
-        <div className="div3 bg-black col-start-3 row-start-1 relative overflow-hidden">
+        <div className="div3 bg-black col-span-2 sm:col-span-1 row-span-1 relative overflow-hidden">
           <img src={bwImages[0]} className="absolute inset-0 w-full h-full object-cover" alt="Image 0" />
         </div>
-        <div className="div4 col-start-4 row-start-1 "></div>
-        <div className="div5 col-span-2 col-start-1 row-start-2 flex flex-col justify-center p-4 ">
-          <h2 className="text-6xl sm:text-8xl lg:text-[12rem] leading-none">contact</h2>
-          <p className='text-lg sm:text-xl lg:text-2xl mt-2 p-6'>
+        <div className="div4 col-span-2 sm:col-span-1 row-span-1 hidden sm:block"></div>
+        <div className="div5 col-span-2 row-span-2 flex flex-col justify-center p-4">
+          <h2 className="text-4xl sm:text-6xl md:text-8xl lg:text-[12rem] leading-none">contact</h2>
+          <p className='text-base sm:text-lg md:text-xl lg:text-2xl mt-2 p-2 sm:p-4 lg:p-6'>
             contact@rachelstroy.com
             <span className='block'>new york, ny</span>
           </p>
         </div>
-        <div className="div6 col-start-3 row-start-2 bg-stone-950  relative overflow-hidden">
-
-        </div>
-        <div className="div7 col-start-4 row-start-2 relative overflow-hidden">
+        <div className="div6 col-span-1 row-span-1 bg-stone-950 relative overflow-hidden"></div>
+        <div className="div7 col-span-1 row-span-1 relative overflow-hidden">
           <img src={bwImages[5]} className="absolute inset-0 w-full h-full object-cover" alt="Image 3" />
         </div>
-      </div >
-    </div >
+      </div>
+    </div>
 
 
   )
