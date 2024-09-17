@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import relfig from '../assets/relfig.jpg'
-import Link from 'next/link';
+
 import Navigation from './Navigation';
 
 
