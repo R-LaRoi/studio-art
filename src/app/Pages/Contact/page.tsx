@@ -1,9 +1,11 @@
 import React from 'react'
-
+import Contact from '@/app/Components/Contact'
 
 
 export default function page() {
   return (
-    <div>this is the contact page</div>
+    <div><Contact />
+      <p>more text</p>
+    </div>
   )
 }

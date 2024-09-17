@@ -17,10 +17,9 @@ export default function Preface() {
         />
       </div>
       <div className="w-full md:w-1/2 bg-white p-4 overflow-y-auto flex items-end justify-end">
-        <ul className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl tracking-tight text-grey-50 w-full">
+        <ul className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl tracking-tight text-black w-full">
 
           <Navigation />
-
 
         </ul>
       </div>
