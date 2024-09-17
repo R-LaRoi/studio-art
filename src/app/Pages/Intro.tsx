@@ -1,5 +1,5 @@
 import Preface from "../Components/Preface";
-import Contact from "../Pages/Contact";
+import Contact from "../Components/Contact";
 import Statement from "../Components/Statement";
 
 import '../Styles/intro.css'
