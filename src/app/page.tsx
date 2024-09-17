@@ -1,12 +1,11 @@
 
-import Intro from "./Pages/Intro";
+import Intro from "./Components/Intro";
 
 
 export default function Home() {
   return (
     <>
       <Intro />
-
 
     </>
   );

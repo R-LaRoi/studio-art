@@ -1,6 +1,6 @@
-import Preface from "../Components/Preface";
-import Contact from "../Components/Contact";
-import Statement from "../Components/Statement";
+import Preface from "./Preface";
+import Contact from "./Contact";
+import Statement from "./Statement";
 
 import '../Styles/intro.css'
 
