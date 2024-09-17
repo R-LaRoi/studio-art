@@ -57,3 +57,22 @@ export const acrylicImages = [
   "https://github.com/user-attachments/assets/0a1360f4-c0fb-4f8d-b52a-0f0a525e898e",
   "https://github.com/user-attachments/assets/a7c670c8-958c-4716-8824-64f31ab5eff9"
 ];
+
+
+export const bwImages = [
+
+  "https://github.com/user-attachments/assets/4fae13fb-8b9d-4e70-bae7-96497993ffd5",
+
+  "https://github.com/user-attachments/assets/e1eadf1c-032f-457c-9741-4265053405c7",
+
+  "https://github.com/user-attachments/assets/73f108e3-81b9-43eb-bcb4-fecad685dfbb",
+
+  "https://github.com/user-attachments/assets/b214edde-95b9-45df-a856-cf0e4348263f",
+
+  "https://github.com/user-attachments/assets/9dd06ff3-d23f-40f0-990d-90d327954dde",
+
+  "https://github.com/user-attachments/assets/48fcb940-81c6-43b2-bb53-4c92bfbf78c6"
+
+
+
+]

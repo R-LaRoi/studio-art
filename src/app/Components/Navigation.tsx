@@ -1,9 +1,9 @@
 import React from 'react'
 import { navLinks } from '../assets/allContent'
 import Link from 'next/link'
-type Props = {}
 
-function Navigation({ }: Props) {
+
+function Navigation() {
   return (
     <div>
 

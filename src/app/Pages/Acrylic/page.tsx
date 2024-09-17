@@ -2,7 +2,10 @@ import React from 'react';
 import Navigation from '@/app/Components/Navigation';
 import { acrylicImages } from '@/app/assets/allContent';
 import ArtistLink from '@/app/Components/ArtistLink';
-export default function Page() {
+
+
+
+export default function page() {
   return (
     <>
       <div className='bg-white flex h-screen p-10'>
