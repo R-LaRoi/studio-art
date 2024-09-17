@@ -1,7 +1,5 @@
 import React from 'react'
 import '../Styles/contact.css'
-// import Image from 'next/image'
-import avatarprofile from '../assets/avatarprofile.png'
 
 // type Props = {}
 

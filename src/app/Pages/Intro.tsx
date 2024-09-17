@@ -1,3 +1,6 @@
+import Preface from "../Components/Preface";
+import Contact from "../Pages/Contact";
+import Statement from "../Components/Statement";
 
 import '../Styles/intro.css'
 
@@ -10,7 +13,9 @@ export default function Intro() {
         </h1>
       </div>
 
-
+      <Preface />
+      <Statement />
+      <Contact />
     </section>
   );
 }
