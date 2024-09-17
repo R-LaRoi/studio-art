@@ -1,12 +1,14 @@
 import React from 'react';
 import Navigation from '@/app/Components/Navigation';
 import { acrylicImages } from '@/app/assets/allContent';
-
+import ArtistLink from '@/app/Components/ArtistLink';
 export default function Page() {
   return (
     <>
       <div className='bg-white flex h-screen p-10'>
-        <div className='fixed left-0 top-0 w-1/4 h-full p-4 '>
+        <ArtistLink />
+        <div className='fixed left-0 top-0 w-1/4 h-full p-4  mt-14 py-12'>
+
           <Navigation />
         </div>
 

@@ -1,11 +1,12 @@
 import React from 'react'
 import Contact from '@/app/Components/Contact'
-
+import ArtistLink from '@/app/Components/ArtistLink'
 
 export default function page() {
   return (
-    <div><Contact />
-      <p>more text</p>
+    <div>
+      <ArtistLink />
+      <Contact />
     </div>
   )
 }

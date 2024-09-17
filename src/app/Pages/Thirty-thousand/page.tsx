@@ -2,12 +2,14 @@ import React from 'react'
 import ImageGrid from '@/app/Components/ImageGrid';
 import { thirtyThousand } from '@/app/assets/allContent';
 import Navigation from '@/app/Components/Navigation';
-
+import ArtistLink from '@/app/Components/ArtistLink';
 
 export default function page() {
   return (
     <div className='bg-white flex h-screen p-10'>
-      <div className='fixed left-0 top-0 w-1/4 h-full p-4 '>
+      <ArtistLink />
+      <div className='fixed left-0 top-0 w-1/4 h-full p-4  mt-14 py-12'>
+
         <Navigation />
       </div>
       <div className='ml-[25%] w-[75%] p-4 overflow-y-auto h-full'>

@@ -4,6 +4,7 @@ import { guardians } from '@/app/assets/allContent'
 import Navigation from '@/app/Components/Navigation'
 import relfig from '../../assets/relfig.jpg'
 import Image from 'next/image'
+import ArtistLink from '@/app/Components/ArtistLink'
 
 
 
@@ -12,7 +13,8 @@ export default function page() {
     <>
 
       <div className='bg-white flex h-screen p-10'>
-        <div className='fixed left-0 top-0 w-1/4 h-full p-4 '>
+        <div className='fixed left-0 top-0 w-1/4 h-full p-4  mt-14 py-12'>
+          <ArtistLink />
           <Navigation />
         </div>
         <div className='ml-[25%] w-[75%] p-4 overflow-y-auto h-full'>
