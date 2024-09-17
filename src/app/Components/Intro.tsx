@@ -1,7 +1,7 @@
 import Preface from "./Preface";
 import Contact from "./Contact";
 import Statement from "./Statement";
-
+import { artistStatement } from "../assets/allContent";
 import '../Styles/intro.css'
 
 export default function Intro() {
@@ -14,7 +14,7 @@ export default function Intro() {
       </div>
 
       <Preface />
-      <Statement />
+      <Statement text={artistStatement} />
       <Contact />
     </section>
   );

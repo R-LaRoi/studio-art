@@ -24,11 +24,12 @@ export const kanak = [
 
 export const guardians = [
 
-
+  "https://github.com/user-attachments/assets/4bc7ef42-d61a-470c-a33c-3095ffd317db",
   "https://github.com/user-attachments/assets/c7049cee-73ce-4517-97bd-02868a4b838a",
   "https://github.com/user-attachments/assets/2ab8c176-96b4-4205-8881-eeef68dda900",
   "https://github.com/user-attachments/assets/8e908a02-eb70-48a3-a2b0-8bf0a8717d0c",
-  "https://github.com/user-attachments/assets/2befb9f4-7eb7-40b5-a3fb-2f7abcbb0570"
+  "https://github.com/user-attachments/assets/2befb9f4-7eb7-40b5-a3fb-2f7abcbb0570",
+
 ];
 
 
@@ -40,3 +41,5 @@ export const navLinks = [
   { href: "/Pages/Contact", text: "contact", number: "00" }
 ];
 
+
+export const artistStatement = "Rachel Stroy's practice stems from deep, steady gazes into the invisible spaces of urban and rural African-Americana. Stroy creates an aesthetic vernacular for forgotten black life and nuance complicated storied pasts of incarceration, injustice, and displacement. Her current body of work, Thirty Thousand Five Sixty-Two, is composed of 30 large scale drawings depicting black men of various ages, disfigured by varying states of incarceration and imprisonment.";
