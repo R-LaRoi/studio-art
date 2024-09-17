@@ -17,7 +17,7 @@ export default function Preface({ }: Props) {
         </div>
 
         <div className=" w-full md:w-1/2 bg-white p-4 overflow-y-auto h-screen flex items-end justify-end">
-          <ul className="text-7xl  tracking-tight">
+          <ul className="text-5xl  tracking-tight text-grey-50">
             <li className="flex justify-between w-full ">guardians <span className='pl-3'>01</span></li>
             <li className="flex justify-between w-full">thirty-thousand-five-sixty-two <span className='pl-3'>02</span></li>
             <li className="flex justify-between w-full">flèche faîtière<span className='pl-3'>03</span></li>
