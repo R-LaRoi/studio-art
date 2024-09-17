@@ -2,9 +2,9 @@ import React from 'react'
 import Image from 'next/image'
 import relfig from '../assets/relfig.jpg'
 
-type Props = {}
+// type Props = {}
 
-export default function Preface({ }: Props) {
+export default function Preface() {
   return (
     <>
       <div className="h-screen flex flex-col md:flex-row">
