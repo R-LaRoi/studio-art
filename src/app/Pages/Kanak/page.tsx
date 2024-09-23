@@ -1,16 +1,16 @@
 import React from 'react'
 import ImageGrid from '@/app/Components/ImageGrid'
 import { kanak } from '@/app/assets/allContent'
+import PagesList from '@/app/Components/PagesList'
 import Navigation from '@/app/Components/Navigation'
-import ArtistLink from '@/app/Components/ArtistLink'
 
 export default function page() {
   return (
     <div className='bg-white flex h-screen p-10'>
-      <ArtistLink />
+      <Navigation />
       <div className='fixed left-0 top-0 w-1/4 h-full p-4  mt-14 py-12'>
 
-        <Navigation />
+        <PagesList />
       </div>
       <div className='ml-[25%] w-[75%] p-4 overflow-y-auto h-full'>
         <div className="container mx-auto">

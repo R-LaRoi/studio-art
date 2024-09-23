@@ -2,8 +2,6 @@ import React from 'react'
 import { bwImages } from '../assets/allContent'
 
 
-
-
 export default function Contact() {
   return (
     <div className="grid grid-cols-2 sm:grid-cols-4 grid-rows-4 sm:grid-rows-2 h-screen w-full gap-0">

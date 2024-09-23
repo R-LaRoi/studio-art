@@ -3,12 +3,12 @@ import Contact from "./Contact";
 import Statement from "./Statement";
 import { artistStatement } from "../assets/allContent";
 import '../Styles/intro.css'
-import ArtistLink from "./ArtistLink";
+import Navigation from "./Navigation";
 
 export default function Intro() {
   return (
     <section>
-      <ArtistLink />
+      <Navigation />
       <div className="flex flex-col items-center justify-center min-h-screen px-4 sm:px-6 lg:px-8">
         <h1 className="font-ubuntu text-6xl sm:text-8xl md:text-9xl lg:text-[22rem]">
           studio_

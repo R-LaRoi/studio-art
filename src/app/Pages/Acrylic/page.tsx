@@ -1,7 +1,7 @@
 import React from 'react';
 import Navigation from '@/app/Components/Navigation';
 import { acrylicImages } from '@/app/assets/allContent';
-import ArtistLink from '@/app/Components/ArtistLink';
+import PagesList from '@/app/Components/PagesList';
 
 
 
@@ -9,10 +9,10 @@ export default function page() {
   return (
     <>
       <div className='bg-white flex h-screen p-10'>
-        <ArtistLink />
-        <div className='fixed left-0 top-0 w-1/4 h-full p-4  mt-14 py-12'>
+        <Navigation />
+        <div className='fixed left-0 top-0 w-1/4 h-full mt-14 py-12'>
 
-          <Navigation />
+          <PagesList />
         </div>
 
         <div className='ml-[25%] w-[75%] p-8 overflow-y-auto h-full'>

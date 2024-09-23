@@ -1,11 +1,11 @@
 import React from 'react'
 import Contact from '@/app/Components/Contact'
-import ArtistLink from '@/app/Components/ArtistLink'
+import Navigation from '@/app/Components/Navigation'
 
 export default function page() {
   return (
     <div>
-      <ArtistLink />
+      <Navigation />
       <Contact />
     </div>
   )
