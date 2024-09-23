@@ -2,7 +2,7 @@ import { AnimatePresence, motion, Variants } from "framer-motion";
 import { useEffect, useState } from "react";
 
 const variants: Variants = {
-  initial: { opacity: 0, scale: 0 },
+  initial: { opacity: 0, scale: 1 },
   animate: { opacity: 1, scale: 1 },
   exit: { opacity: 0, scale: 1.5 },
 };
@@ -20,13 +20,13 @@ export default function TextAnimation() {
         setText(textArray[nextIndex]);
         return nextIndex;
       });
-    }, 1000);
+    }, 1500);
 
     return () => clearInterval(intervalId);
   }, []);
 
   return (
-    <div className="App">
+    <div>
       <AnimatePresence mode="wait">
         <motion.h1
           variants={variants}
