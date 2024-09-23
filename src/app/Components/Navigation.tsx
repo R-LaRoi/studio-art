@@ -62,14 +62,12 @@ export default function Navigation() {
 
         </div>
 
-
         :
-
 
         <div onClick={showNavMenu} >
 
           {/* <Link href="/"> */}
-          <div className='fixed top-0 left-0 text-4xl p-2 bg-transparent font-bold tracking-wide transition duration-300 cursor-pointer hover:text-400 hover:rounded-sm  hover:border-b-4 hover:border-black' >rachelstroy</div>
+          <div className='fixed top-0 left-0 text-4xl p-4 bg-transparent font-bold tracking-wide transition duration-300 cursor-pointer hover:text-400 hover:rounded-sm  hover:border-b-4 hover:border-black' >rachelstroy</div>
           {/* </Link> */}
 
 

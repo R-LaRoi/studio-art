@@ -9,7 +9,6 @@ export default function page() {
     <div className='bg-white flex h-screen p-10'>
       <Navigation />
       <div className='fixed left-0 top-0 w-1/4 h-full p-4  mt-14 py-12'>
-
         <PagesList />
       </div>
       <div className='ml-[25%] w-[75%] p-4 overflow-y-auto h-full'>
