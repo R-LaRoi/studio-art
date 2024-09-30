@@ -33,7 +33,7 @@ export default function TextAnimation() {
           initial="initial"
           animate="animate"
           exit="exit"
-          key={text}
+          key={currentIndex}
         >
           {text}
         </motion.h1>

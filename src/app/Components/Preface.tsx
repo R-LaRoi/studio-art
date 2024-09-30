@@ -3,8 +3,6 @@ import Image from 'next/image'
 import relfig from '../assets/relfig.jpg'
 import { navLinks } from '../assets/allContent'
 import Link from 'next/link'
-import PagesList from './PagesList';
-
 
 
 

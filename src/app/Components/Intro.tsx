@@ -5,7 +5,7 @@ import Statement from "./Statement";
 import { artistStatement } from "../assets/allContent";
 import '../Styles/intro.css'
 import Navigation from "./Navigation";
-import TextAnimation from './textAnimation'
+
 
 export default function Intro() {
   return (
