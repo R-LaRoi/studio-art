@@ -67,7 +67,12 @@ export default function Navigation() {
         <div onClick={showNavMenu} >
 
           {/* <Link href="/"> */}
-          <div className='fixed top-0 left-0 text-4xl p-4 bg-transparent font-bold tracking-wide transition duration-300 cursor-pointer hover:text-400 hover:rounded-sm  hover:border-b-4 hover:border-black' >rachelstroy</div>
+          <div className="fixed top-0 left-0 text-2xl py-7 px-8 bg-transparent tracking-wide transition duration-300 cursor-pointer flex items-center w-full">
+            <small className="mr-auto"></small>
+            <small className="absolute left-1/2 transform -translate-x-1/2 tracking-wide">rachel stroy</small>
+            <small className="mr-4">2024</small>
+
+          </div>
           {/* </Link> */}
 
 

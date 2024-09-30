@@ -3,7 +3,7 @@
 import React from 'react';
 import Collections from "./Collections";
 import { navLinks } from '../assets/allContent';
-import Link from 'next/link';
+
 
 interface NavLink {
   href: string;
@@ -24,7 +24,7 @@ export default function Intro(): JSX.Element {
     <section>
       <main className='main'>
         <div className='gallery'>
-          <p>rachel stroy</p>
+          <p className='pb-4'>Featured Work</p>
           {navLinks.map((navLink: NavLink, index: number) => {
             const collectionProps: CollectionProps = {
               title1: navLink.text,
