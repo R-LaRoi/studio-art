@@ -1,5 +1,5 @@
 import React from 'react';
-import Navigation from '@/app/Components/Navigation';
+import Nametag from '@/app/Components/Nametag'
 import { acrylicImages } from '@/app/assets/allContent';
 import PagesList from '@/app/Components/PagesList';
 
@@ -9,9 +9,7 @@ export default function page() {
     <>
       <div className='bg-white flex flex-col min-h-screen'>
         <div className='fixed top-0 left-0 w-full bg-white z-20'>
-          {/* <div className=''>
-            <Navigation />
-          </div> */}
+
           <div className='p-4 sm:p-6 md:p-8 lg:p-10'>
             <PagesList />
           </div>
@@ -33,6 +31,7 @@ export default function page() {
           </div>
         </main>
       </div>
+      <Nametag />
     </>
   );
 }

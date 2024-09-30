@@ -12,8 +12,8 @@ export default function PagesList() {
             {navLinks.map((link, index) => (
               <Link key={index} href={link.href}>
                 <li className="cursor-pointer text-black hover:text-gray-300 transition flex items-center capitalize">
-                  <span className="hidden sm:inline-block mr-1">{link.text}</span>
-                  <span>{link.number}</span>
+                  <span className="hidden sm:inline-block mr-1 ">{link.text}</span>
+                  <span className=''>{link.number}</span>
                 </li>
               </Link>
             ))}

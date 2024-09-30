@@ -1,11 +1,9 @@
 'use client'
-
 import React, { useState } from 'react'
 import Link from 'next/link'
 import { navLinks } from '../assets/allContent'
 import { Spin as Hamburger } from 'hamburger-react'
 import { motion } from "framer-motion";
-
 
 
 const menu = {
@@ -20,7 +18,6 @@ const menu = {
 }
 
 
-
 export default function Navigation() {
 
   const [navActive, setNavActive] = useState(false);
@@ -33,9 +30,7 @@ export default function Navigation() {
     <>
 
       {navActive ?
-
         <div className='fixed inset-0 h-screen w-screen bg-[#0C0A09] z-[100] text-center flex items-center justify-center'>
-
           <motion.div
             variants={menu}
             animate={navActive ? "open" : "closed"}
@@ -66,17 +61,10 @@ export default function Navigation() {
 
         <div onClick={showNavMenu} >
 
-          {/* <Link href="/"> */}
-          <div className="fixed top-0 left-0 text-2xl py-7 px-8 bg-transparent tracking-wide transition duration-300 cursor-pointer flex items-center w-full">
-            <small className="mr-auto"></small>
-            <small className="absolute left-1/2 transform -translate-x-1/2 tracking-wide">rachel stroy</small>
-            <small className="mr-4">2024</small>
-
+          <div className="fixed top-0 left-0 text-2xl py-7 px-8 bg-transparent tracking-wide transition duration-300 cursor-pointer flex items-center w-full"
+          >
+            rachel stroy
           </div>
-          {/* </Link> */}
-
-
-
         </div>
 
 

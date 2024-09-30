@@ -1,17 +1,30 @@
 import React from 'react'
 import Image from 'next/image'
-import relfig from '../assets/relfig.jpg'
+import four from '../assets/4.png'
 import { navLinks } from '../assets/allContent'
 import Link from 'next/link'
+import { useScroll, useTransform, motion } from 'framer-motion';
 
+import { useRef } from 'react';
 
 
 export default function Preface() {
+
+
+  const container = useRef<HTMLDivElement | null>(null);
+  const { scrollYProgress } = useScroll({
+    target: container,
+    offset: ["start end", 'end start']
+  })
+
+  const y = useTransform(scrollYProgress, [0, 1], ["-10vh", "10vh"]);
+
   return (
+
     <div className="min-h-screen flex flex-col md:flex-row">
       <div className="w-full  md:w-1/2 p-4 overflow-y-auto">
         <Image
-          src={relfig}
+          src={four}
           alt="charcoal drawing"
           className="w-full md:w-1/2 mx-auto"
         />
@@ -31,6 +44,7 @@ export default function Preface() {
                 </li>
               ))}
             </ul>
+            <p>contact@rachelstroy.com</p>
           </div>
         </div>
       </div>

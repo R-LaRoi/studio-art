@@ -2,8 +2,8 @@
 
 import React from 'react';
 import Collections from "./Collections";
-import { artistStatement, navLinks } from '../assets/allContent';
-import Statement from './Statement';
+import { navLinks } from '../assets/allContent';
+
 
 
 interface NavLink {
@@ -25,7 +25,11 @@ export default function Intro(): JSX.Element {
     <section>
       <main className='main'>
         <div className='gallery'>
-          <p className='pb-4'>Featured Work</p>
+          <div className='flex justify-between'>
+            <p className='pb-4'>Featured Work </p>
+            <p className='pb-4'>Rachel Stroy</p>
+          </div>
+
           {navLinks.map((navLink: NavLink, index: number) => {
             const collectionProps: CollectionProps = {
               title1: navLink.text,
@@ -42,12 +46,7 @@ export default function Intro(): JSX.Element {
             );
           })}
         </div>
-
       </main>
-      <section>
-        <Statement text={artistStatement} />
-      </section>
-
     </section>
   );
 }

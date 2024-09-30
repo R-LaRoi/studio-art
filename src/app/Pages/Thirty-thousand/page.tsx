@@ -3,6 +3,7 @@ import ImageGrid from '@/app/Components/ImageGrid';
 import { thirtyThousand } from '@/app/assets/allContent';
 import Navigation from '@/app/Components/Navigation';
 import PagesList from '@/app/Components/PagesList';
+import Nametag from "@/app/Components/Nametag";
 
 export default function page() {
   return (
@@ -19,6 +20,7 @@ export default function page() {
           <ImageGrid images={thirtyThousand} />
         </div>
       </div>
+      <Nametag />
     </div>
   )
 }

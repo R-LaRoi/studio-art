@@ -5,12 +5,14 @@ import relfig from '../../assets/relfig.jpg'
 import Image from 'next/image'
 import Navigation from '@/app/Components/Navigation'
 import PagesList from '@/app/Components/PagesList'
+import Nametag from '@/app/Components/Nametag'
 
 
 
 export default function page() {
   return (
     <>
+
       <div className='bg-white flex flex-col min-h-screen p-4 sm:p-6 md:p-8 lg:p-10'>
         <div className='w-full mb-8'>
           <Navigation />
@@ -34,6 +36,7 @@ export default function page() {
           />
         </div>
       </div>
+      <Nametag />
     </>
   )
 }

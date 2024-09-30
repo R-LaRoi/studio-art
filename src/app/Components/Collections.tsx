@@ -20,16 +20,14 @@ const anim = {
 
 
 export default function Collections({ collection }: CollectionProps): JSX.Element {
-  const { title1, title2, src, href } = collection;
 
+  const { title1, title2, src, href } = collection;
   const [isActive, setIsActive] = useState(false);
 
   return (
-
-
     <div onMouseEnter={() => { setIsActive(true) }} onMouseLeave={() => { setIsActive(false) }} className="project">
       <Link key={title2} href={href}>
-        <p>{title1}</p>
+        <p className='px-2'>{title1}</p>
       </Link>
       <motion.div variants={anim} animate={isActive ? "open" : "closed"} className="imgContainer">
         <img src={src}></img>
