@@ -4,8 +4,7 @@ import four from '../assets/4.png'
 import { navLinks } from '../assets/allContent'
 import Link from 'next/link'
 // import { useScroll, useTransform, motion } from 'framer-motion';
-import { useRef } from 'react';
-
+// import { useRef } from 'react';
 
 export default function Preface() {
 
