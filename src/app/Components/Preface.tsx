@@ -2,7 +2,8 @@ import React from 'react'
 import Image from 'next/image'
 import four from '../assets/4.png'
 import { navLinks } from '../assets/allContent'
-import Link from 'next/link'
+import { Link } from '@react-email/link'
+
 // import { useScroll, useTransform, motion } from 'framer-motion';
 // import { useRef } from 'react';
 
@@ -15,6 +16,12 @@ export default function Preface() {
   // })
 
   // const y = useTransform(scrollYProgress, [0, 1], ["-10vh", "10vh"]);
+
+
+  const Email = () => {
+    return
+  };
+
 
   return (
 
@@ -41,7 +48,9 @@ export default function Preface() {
                 </li>
               ))}
             </ul>
-            <p>contact@rachelstroy.com</p>
+            <Link href="mailto:contact@rachelstroy.com">
+              <p className=' text-black tracking-widest font-bold hover:text-gray-500 transition duration-300'>contact@rachelstroy.com</p></Link>
+
           </div>
         </div>
       </div>

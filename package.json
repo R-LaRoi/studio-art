@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@react-email/link": "0.0.10",
     "framer-motion": "^11.5.6",
     "hamburger-react": "^2.5.1",
     "lenis": "^1.1.13",
