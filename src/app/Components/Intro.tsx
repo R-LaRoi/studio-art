@@ -1,6 +1,6 @@
 'use client'
 import Preface from "./Preface";
-import Contact from "./Contact";
+// import Contact from "./Contact";
 import Statement from "./Statement";
 import { artistStatement } from "../assets/allContent";
 import '../Styles/intro.css'
