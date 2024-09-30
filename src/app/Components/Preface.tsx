@@ -3,32 +3,30 @@ import Image from 'next/image'
 import four from '../assets/4.png'
 import { navLinks } from '../assets/allContent'
 import Link from 'next/link'
-import { useScroll, useTransform, motion } from 'framer-motion';
-
+// import { useScroll, useTransform, motion } from 'framer-motion';
 import { useRef } from 'react';
 
 
 export default function Preface() {
 
-
-  const container = useRef<HTMLDivElement | null>(null);
-  const { scrollYProgress } = useScroll({
-    target: container,
-    offset: ["start end", 'end start']
-  })
+  // const container = useRef<HTMLDivElement | null>(null);
+  // const { scrollYProgress } = useScroll({
+  //   target: container,
+  //   offset: ["start end", 'end start']
+  // })
 
   // const y = useTransform(scrollYProgress, [0, 1], ["-10vh", "10vh"]);
 
   return (
 
     <div className="min-h-screen flex flex-col md:flex-row">
-      <motion.div className="w-full  md:w-1/2 p-4 overflow-y-auto">
+      <div className="w-full  md:w-1/2 p-4 overflow-y-auto">
         <Image
           src={four}
           alt="charcoal drawing"
           className="w-full md:w-1/2 mx-auto"
         />
-      </motion.div>
+      </div>
       <div className="w-full md:w-1/2 bg-white p-4 overflow-y-auto flex  justify-end">
 
         <div className="flex justify-center items-center w-full h-screen">
