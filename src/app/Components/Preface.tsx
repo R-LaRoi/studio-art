@@ -18,10 +18,6 @@ export default function Preface() {
   // const y = useTransform(scrollYProgress, [0, 1], ["-10vh", "10vh"]);
 
 
-  const Email = () => {
-    return
-  };
-
 
   return (
 
