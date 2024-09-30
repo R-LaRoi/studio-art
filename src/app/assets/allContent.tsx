@@ -44,7 +44,7 @@ export const navLinks = [
     src: "https://github.com/user-attachments/assets/0feb2e29-8015-4f0f-93c3-ef08d1ab7d03"
   },
   {
-    href: "/Pages/Thirty-thousand", text: "thirty-thousand-five-sixty-two", number: "02",
+    href: "/Pages/Thirty-thousand", text: "30,562", number: "02",
     src: "https://github.com/user-attachments/assets/1dacd2cb-6460-4294-a33e-6160296e6001"
   },
   {
@@ -56,7 +56,7 @@ export const navLinks = [
     src: "https://github.com/user-attachments/assets/35beb738-6ce9-49d9-8ec0-ee9e3a2e1724"
   },
   {
-    href: "/Pages/contact", text: "connect", number: "00",
+    href: "/Pages/Contact", text: "connect", number: "00",
     src: "https://github.com/user-attachments/assets/84d77062-9bd3-4fa9-a200-ddcff1696d75"
   }
 ];

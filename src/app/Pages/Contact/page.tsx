@@ -1,12 +1,17 @@
 import React from 'react'
 import Contact from '@/app/Components/Contact'
-import Navigation from '@/app/Components/Navigation'
+import PagesList from '@/app/Components/PagesList'
+import Statement from '@/app/Components/Statement'
+
+import { artistStatement } from '../../assets/allContent'
+
 
 export default function page() {
   return (
     <div>
-      <Navigation />
-      <Contact />
+      <PagesList />
+      <Statement text={artistStatement} />
+
     </div>
   )
 }

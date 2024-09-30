@@ -9,9 +9,9 @@ export default function page() {
     <>
       <div className='bg-white flex flex-col min-h-screen'>
         <div className='fixed top-0 left-0 w-full bg-white z-20'>
-          <div className='p-4 sm:p-6 md:p-8 lg:p-10'>
+          {/* <div className=''>
             <Navigation />
-          </div>
+          </div> */}
           <div className='p-4 sm:p-6 md:p-8 lg:p-10'>
             <PagesList />
           </div>

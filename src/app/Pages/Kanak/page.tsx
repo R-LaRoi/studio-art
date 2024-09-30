@@ -14,7 +14,7 @@ export default function page() {
       <div className='fixed top-0 left-0 w-full p-4 sm:p-6 md:p-8 lg:p-10 bg-white z-10'>
         <PagesList />
       </div>
-      <div className=' mt-[4%] ml-[15%] w-[100%] p-2 overflow-y-auto h-full'>
+      <div className=' mt-[4%] ml-[10%] w-[100%] p-2 overflow-y-auto h-full'>
         <div className="container mx-auto">
           <ImageGrid images={kanak} />
         </div>

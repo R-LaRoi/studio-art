@@ -14,23 +14,24 @@
 }
 
 .project {
-  font-family: var(--font-Inter);
+  font-family: var(--font-ManRope);
   border-top: 1px solid #000;
-  padding-top: 1.5vw;
-  padding-bottom: 1.5vw;
-  letter-spacing: -1px;
+  padding-top: 2.5vw;
+  padding-bottom: 2.5vw;
+  letter-spacing: 0px;
   cursor: pointer;
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   position: relative;
-  height: 8vw;
+  height: 10vw;
   text-transform: Capitalize;
+  color: #191a1a;
 }
 
 .project p {
-  font-size: 5vw;
+  font-size: 7vw;
   margin: 0px;
 }
 .project p:nth-of-type(1) {
@@ -50,4 +51,8 @@
 }
 .project img {
   width: 8vw;
+}
+
+.at {
+  font-family: var(--font-ManRope);
 }

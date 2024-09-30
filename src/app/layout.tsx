@@ -4,9 +4,9 @@ import titilliumFont from "next/font/local"
 import "./globals.css";
 
 
-const Inter = localFont({
-  src: "./fonts/Inter.ttf",
-  variable: "--font-Inter",
+const ManRope = localFont({
+  src: "./fonts/ManRope.ttf",
+  variable: "--font-ManRope",
   weight: "100 900",
 });
 
@@ -32,7 +32,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${Inter.variable} ${titillium.variable} antialiased`}
+        className={`${ManRope.variable} ${titillium.variable} antialiased`}
       >
         {children}
       </body>

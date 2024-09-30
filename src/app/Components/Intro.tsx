@@ -2,7 +2,8 @@
 
 import React from 'react';
 import Collections from "./Collections";
-import { navLinks } from '../assets/allContent';
+import { artistStatement, navLinks } from '../assets/allContent';
+import Statement from './Statement';
 
 
 interface NavLink {
@@ -41,7 +42,12 @@ export default function Intro(): JSX.Element {
             );
           })}
         </div>
+
       </main>
+      <section>
+        <Statement text={artistStatement} />
+      </section>
+
     </section>
   );
 }
