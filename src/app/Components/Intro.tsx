@@ -1,19 +1,47 @@
 'use client'
-import Preface from "./Preface";
-// import Contact from "./Contact";
-import Statement from "./Statement";
-import { artistStatement } from "../assets/allContent";
-import '../Styles/intro.css'
-import Navigation from "./Navigation";
 
+import React from 'react';
+import Collections from "./Collections";
+import { navLinks } from '../assets/allContent';
+import Link from 'next/link';
 
-export default function Intro() {
+interface NavLink {
+  href: string;
+  text: string;
+  number: string;
+  src: string;
+}
+
+interface CollectionProps {
+  title1: string;
+  title2: string;
+  src: string;
+  href: string;
+}
+
+export default function Intro(): JSX.Element {
   return (
     <section>
-      <Navigation />
-      <Statement text={artistStatement} />
-      <Preface />
-      {/* <Contact /> */}
+      <main className='main'>
+        <div className='gallery'>
+          <p>rachel stroy</p>
+          {navLinks.map((navLink: NavLink, index: number) => {
+            const collectionProps: CollectionProps = {
+              title1: navLink.text,
+              title2: navLink.number,
+              src: navLink.src,
+              href: navLink.href
+            };
+
+            return (
+              <Collections
+                key={navLink.href || index}
+                collection={collectionProps}
+              />
+            );
+          })}
+        </div>
+      </main>
     </section>
   );
 }

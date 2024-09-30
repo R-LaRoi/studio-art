@@ -35,12 +35,30 @@ export const guardians = [
 
 
 
+
+
+
 export const navLinks = [
-  { href: "/Pages/Guardians", text: "guardians", number: "01" },
-  { href: "/Pages/Thirty-thousand", text: "thirty-thousand-five-sixty-two", number: "02" },
-  { href: "/Pages/Kanak", text: "flèche faîtière", number: "03" },
-  { href: "/Pages/Acrylic", text: "paintings", number: "04" },
-  { href: "/Pages/Contact", text: "contact", number: "00" }
+  {
+    href: "/Pages/Guardians", text: "guardians", number: "01",
+    src: "https://github.com/user-attachments/assets/0feb2e29-8015-4f0f-93c3-ef08d1ab7d03"
+  },
+  {
+    href: "/Pages/Thirty-thousand", text: "thirty-thousand-five-sixty-two", number: "02",
+    src: "https://github.com/user-attachments/assets/1dacd2cb-6460-4294-a33e-6160296e6001"
+  },
+  {
+    href: "/Pages/Kanak", text: "flèche faîtière", number: "03",
+    src: "https://github.com/user-attachments/assets/62cf2da7-4304-4420-b782-9c2271dd0ed9"
+  },
+  {
+    href: "/Pages/Acrylic", text: "paintings", number: "04",
+    src: "https://github.com/user-attachments/assets/35beb738-6ce9-49d9-8ec0-ee9e3a2e1724"
+  },
+  {
+    href: "/Pages/contact", text: "connect", number: "00",
+    src: "https://github.com/user-attachments/assets/84d77062-9bd3-4fa9-a200-ddcff1696d75"
+  }
 ];
 
 

@@ -1,3 +1,53 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.main {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.gallery {
+  width: 80%;
+}
+
+.project {
+  font-family: var(--font-Inter);
+  border-top: 2px solid #000;
+  padding-top: 1.5vw;
+  padding-bottom: 1.5vw;
+  letter-spacing: -1px;
+  cursor: pointer;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  height: 8vw;
+  text-transform: Capitalize;
+}
+
+.project p {
+  font-size: 4vw;
+  margin: 0px;
+}
+.project p:nth-of-type(1) {
+  margin-right: 0.75vw;
+}
+.project p:nth-of-type(2) {
+  margin-left: 0.75vw;
+}
+.project:last-of-type {
+  border-bottom: 2px solid black;
+}
+.project .imgContainer {
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  width: 0;
+}
+.project img {
+  width: 8vw;
+}

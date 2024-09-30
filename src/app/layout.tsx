@@ -4,16 +4,12 @@ import titilliumFont from "next/font/local"
 import "./globals.css";
 
 
-const geistSans = localFont({
-  src: "./fonts/GeistVF.woff",
-  variable: "--font-geist-sans",
+const Inter = localFont({
+  src: "./fonts/Inter.ttf",
+  variable: "--font-Inter",
   weight: "100 900",
 });
-const geistMono = localFont({
-  src: "./fonts/GeistMonoVF.woff",
-  variable: "--font-geist-mono",
-  weight: "100 900",
-});
+
 
 const titillium = titilliumFont
   ({
@@ -36,7 +32,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} ${titillium.variable} antialiased`}
+        className={`${Inter.variable} ${titillium.variable} antialiased`}
       >
         {children}
       </body>
