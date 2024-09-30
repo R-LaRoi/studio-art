@@ -17,18 +17,18 @@ export default function Preface() {
     offset: ["start end", 'end start']
   })
 
-  const y = useTransform(scrollYProgress, [0, 1], ["-10vh", "10vh"]);
+  // const y = useTransform(scrollYProgress, [0, 1], ["-10vh", "10vh"]);
 
   return (
 
     <div className="min-h-screen flex flex-col md:flex-row">
-      <div className="w-full  md:w-1/2 p-4 overflow-y-auto">
+      <motion.div className="w-full  md:w-1/2 p-4 overflow-y-auto">
         <Image
           src={four}
           alt="charcoal drawing"
           className="w-full md:w-1/2 mx-auto"
         />
-      </div>
+      </motion.div>
       <div className="w-full md:w-1/2 bg-white p-4 overflow-y-auto flex  justify-end">
 
         <div className="flex justify-center items-center w-full h-screen">
