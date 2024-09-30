@@ -17,7 +17,7 @@ export default function page() {
           <Navigation />
           <PagesList />
         </div>
-        <div className='ml-[25%] w-[75%] p-4 overflow-y-auto h-full'>
+        <div className=' mt-[4%] ml-[15%] w-[100%] p-2 overflow-y-auto h-full'>
           <img src={guardians[0]} className='mb-8' />
           <div className="container mx-auto">
             <ImageGrid images={guardians.slice(1)} />

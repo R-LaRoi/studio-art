@@ -15,7 +15,7 @@ export default function page() {
           <PagesList />
         </div>
 
-        <div className='ml-[25%] w-[75%] p-8 overflow-y-auto h-full'>
+        <div className=' mt-[4%] ml-[15%] w-[100%] p-2 overflow-y-auto h-full'>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             {acrylicImages.map((photo, index) => (
               <div key={index} className="gallery__item">

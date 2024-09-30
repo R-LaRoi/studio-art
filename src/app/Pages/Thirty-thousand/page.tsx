@@ -11,7 +11,7 @@ export default function page() {
       <div className='fixed left-0 top-0 w-1/4 h-full p-4  mt-14 py-12'>
         <PagesList />
       </div>
-      <div className='ml-[25%] w-[75%] p-4 overflow-y-auto h-full'>
+      <div className=' mt-[4%] ml-[15%] w-[100%] p-2 overflow-y-auto h-full'>
         <div className="container mx-auto">
           <ImageGrid images={thirtyThousand} />
         </div>

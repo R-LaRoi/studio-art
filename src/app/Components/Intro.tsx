@@ -11,17 +11,9 @@ export default function Intro() {
   return (
     <section>
       <Navigation />
-      <div className="flex flex-col items-center justify-center min-h-screen px-4 sm:px-6 lg:px-8">
-
-
-        <h1 className="font-ubuntu text-5xl sm:text-3xl md:text-5xl lg:text-[10rem] ">
-          <TextAnimation />
-        </h1>
-      </div>
-
-      <Preface />
       <Statement text={artistStatement} />
-      <Contact />
+      <Preface />
+      {/* <Contact /> */}
     </section>
   );
 }
