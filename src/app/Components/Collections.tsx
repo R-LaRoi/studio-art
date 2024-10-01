@@ -2,6 +2,8 @@
 import { useState } from 'react';
 import { motion } from 'framer-motion';
 import Link from 'next/link';
+
+
 interface CollectionProps {
   collection: {
     title1: string;
@@ -26,7 +28,7 @@ export default function Collections({ collection }: CollectionProps): JSX.Elemen
 
   return (
     <div onMouseEnter={() => { setIsActive(true) }} onMouseLeave={() => { setIsActive(false) }} className="project">
-      <Link key={title2} href={href}>
+      <Link key={title2} href={href} className="whitespace-nowrap overflow-hidden text-ellipsis max-w-full">
         <p className='px-2'>{title1}</p>
       </Link>
       <motion.div variants={anim} animate={isActive ? "open" : "closed"} className="imgContainer">

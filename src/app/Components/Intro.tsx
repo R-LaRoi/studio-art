@@ -3,6 +3,7 @@
 import React from 'react';
 import Collections from "./Collections";
 import { navLinks } from '../assets/allContent';
+import Nametag from './Nametag';
 
 
 
@@ -27,7 +28,7 @@ export default function Intro(): JSX.Element {
         <div className='gallery'>
           <div className='flex justify-between'>
             <p className='pb-4'>Featured Work </p>
-            <p className='pb-4'>Rachel Stroy</p>
+            <span className=" tracking-widest font-bold text-xl text-black hover:text-gray-500 transition duration-300">Rachel Stroy</span>
           </div>
 
           {navLinks.map((navLink: NavLink, index: number) => {
