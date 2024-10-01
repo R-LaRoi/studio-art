@@ -3,7 +3,7 @@
 import React from 'react';
 import Collections from "./Collections";
 import { navLinks } from '../assets/allContent';
-import Nametag from './Nametag';
+
 
 
 
